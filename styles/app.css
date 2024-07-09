@@ -1,0 +1,482 @@
+@font-face {
+    font-family: DanaRegular;
+    src: url(../fonts/DanaFaNum-Regular.ttf);
+}
+
+@font-face {
+    font-family: DanaMedium;
+    src: url(../fonts/DanaFaNum-Medium.ttf);
+}
+
+@font-face {
+    font-family: DanaBold;
+    src: url(../fonts/DanaFaNum-Bold.ttf);
+}
+
+@font-face {
+    font-family: DanaExtraBold;
+    src: url(../fonts/DanaFaNum-ExtraBold.ttf);
+}
+
+/* Start Project */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "DanaMedium";
+    background-color: #f3f8fc;
+}
+
+.container {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+/*  */
+
+.h2 {
+    font-family: 'DanaExtraBold';
+    font-size: 30px;
+}
+
+.h3 {
+    font-size: 18px;
+    font-family: 'DanaMedium';
+    font-weight: normal;
+}
+
+/*  */
+
+/*Start header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+}
+
+.nav-img-logo {
+    max-width: 80px;
+    border-radius: 100%;
+}
+
+.menu {
+    display: flex;
+    padding-right: 80px;
+}
+
+.menu-items {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.a-link {
+    text-decoration: none;
+    color: #242424;
+    font-size: 17px;
+    transition: 0.1s ease-in-out;
+}
+
+.a-link:hover {
+    color: #2f5bea;
+}
+
+.header-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2f5bea;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/*Start header bottom */
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.header-bottom-right {
+    flex-basis: 50%;
+}
+
+.header-bottom-left {
+    flex-basis: 50%;
+}
+
+.header-bottom-h2 {
+    font-family: DanaExtraBold;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.header-bottom-p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.header-bottom-left-holder {
+    max-width: 500px;
+}
+
+.header-bottom-holder {
+    margin-top: 40px;
+}
+
+.header-bottom-btm {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #2f5bea;
+    margin-left: 10px;
+}
+
+.header-bottom-btm:nth-child(2) {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #2f5bea;
+}
+
+/*Start main */
+
+.main {}
+
+.main-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main-h2 {
+    padding-top: 70px;
+}
+
+.main-h3 {}
+
+.main-services {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.main-card {
+    text-align: center;
+    max-width: 250px;
+    margin: 40px 20px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 110ms ease-in;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px 0px #d9d9d9;
+}
+
+.main-card:hover {
+    box-shadow: 0px 0px 200px -70px #2f5bea;
+}
+
+.main-h4 {
+    font-size: 22px;
+    font-family: 'DanaBold';
+}
+
+.main-p {
+    font-size: 17px;
+    line-height: 26px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.main-img-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img {
+    max-width: 400px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.main-span {
+    text-shadow: 0px 0px 20px #2f5bea;
+}
+
+/* Start persons */
+
+.persons {
+    background-color: #2f5bea;
+    width: 100%;
+}
+
+.persons-header {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.persons-h2 {
+    color: #fff;
+}
+
+.persons-h3 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.persons-card-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.persons-card {
+    max-width: 330px;
+    min-height: 250px;
+    background-color: #fff;
+    margin: 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 100ms ease-in;
+}
+
+.persons-card:hover {
+    transform: translateY(-6px);
+}
+
+.persons-card-text {
+    padding: 22px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.persons-card-name {
+    margin: 5px 10px
+}
+
+.persons-img {}
+
+.persons-img-persons-holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #00000050;
+}
+
+/* Start skill */
+
+.skills {
+    margin: 80px 0px;
+}
+
+.skill-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.skill-carts {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.card-holder {
+    text-align: center;
+    padding: 60px;
+    background: #2f5bea;
+    border-radius: 5px;
+}
+
+.card-holder {
+    text-align: center;
+}
+
+.skill-h4 {
+    color: #fff;
+    font-size: 19px;
+}
+
+.skill-span {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Start Sample */
+
+.samples {
+
+}
+
+.sample-title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.sample-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sample-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.sample-holder {
+    background-color: transparent;
+}
+
+.sample-img {
+    max-width: 500px;
+    max-height: 220px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.sample-link {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'DanaBold';
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 180px;
+    color: #fff;
+    background-color: #2f5bea;
+}
+
+/* Start Contact */
+
+.contact {
+
+}
+
+.contact-header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact-title {
+
+}
+
+.contact-text-header {
+
+}
+
+.contact-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.contact-card-holder {
+    display: flex;
+}
+
+.contact-svg-holder {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-svg {
+    color: #2f5bea;
+    max-width: 70px;
+    max-height: 70px;
+    background-color: #FFF;
+    border: 2px solid #000;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.contact-text-holder {
+
+}
+
+.contact-text-top {
+    font-size: 20px;
+    margin: 20px 0px;
+    text-align: start;
+}
+
+.conract-link {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 17px;
+    text-align: start;
+}
+
+.contact-bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 130px;
+}
+
+/* Project Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
