@@ -29,37 +29,22 @@
 }
 
 
-.circle-blue2 {
-     background: #6199f9;
-     left: 50px;
-     top: 130px;
+.circle-blue1 {
+    background: #6199f9;
+    left: 50px;
+    top: 130px;
     filter: blur(100px);
 }
 
 .circle-blue2 {
     background: #6199f9;
-   filter: blur(100px);
+    filter: blur(100px);
 }
 
 .circle-blue3 {
     background: #6199f9;
-   filter: blur(100px);
-   left: 40px;
-}
-
-.circle-blue4 {
-    background: #6199f9;
-   filter: blur(100px);
-}
-
-.circle-blue5 {
-    background: #6199f9;
-   filter: blur(100px);
-}
-
-.circle-blue6 {
-    background: #6199f9;
-   filter: blur(100px);
+    filter: blur(100px);
+    left: 40px;
 }
 
 /* Start Project */
@@ -108,11 +93,25 @@ body {
 
 /*Start header */
 
+.container-header {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 .header {
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 25px;
+    background: #ffffff80;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -121,8 +120,7 @@ body {
     align-items: center;
 }
 
-.nav-img {
-}
+.nav-img {}
 
 .nav-img-logo {
     max-width: 80px;
@@ -141,9 +139,10 @@ body {
 
 .a-link {
     text-decoration: none;
-    color: #242424;
+    color: #000;
     font-size: 17px;
     transition: 0.1s ease-in-out;
+    font-weight: bold;
 }
 
 .a-link:hover {
@@ -379,9 +378,7 @@ body {
 
 /* Start Sample */
 
-.samples {
-
-}
+.samples {}
 
 .sample-title {
     text-align: center;
@@ -428,22 +425,16 @@ body {
 
 /* Start Contact */
 
-.contact {
-
-}
+.contact {}
 
 .contact-header {
     text-align: center;
     padding-top: 50px;
 }
 
-.contact-title {
+.contact-title {}
 
-}
-
-.contact-text-header {
-
-}
+.contact-text-header {}
 
 .contact-top {
     display: flex;
@@ -473,9 +464,7 @@ body {
     padding: 10px;
 }
 
-.contact-text-holder {
-
-}
+.contact-text-holder {}
 
 .contact-text-top {
     font-size: 20px;
@@ -501,9 +490,7 @@ body {
 
 /* Start About Me */
 
-.about {
-    
-}
+.about {}
 
 .about-header {
     text-align: center;
@@ -514,9 +501,7 @@ body {
     /* padding-top: 100px; */
 }
 
-.about-h3 {
-    
-}
+.about-h3 {}
 
 .about-me {
     /* display: flex;
@@ -543,6 +528,7 @@ body {
     max-width: 650px;
     text-align: justify;
     margin: 10px auto;
+    font-size: 17px;
 }
 
 .about-link-to-contact {
