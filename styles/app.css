@@ -140,9 +140,8 @@ body {
 .a-link {
     text-decoration: none;
     color: #000;
-    font-size: 17px;
+    font-size: 18px;
     transition: 0.1s ease-in-out;
-    font-weight: bold;
 }
 
 .a-link:hover {
@@ -220,7 +219,7 @@ body {
 }
 
 .main-h2 {
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 .main-h3 {}
@@ -248,7 +247,7 @@ body {
 
 .main-h4 {
     font-size: 22px;
-    font-family: 'DanaBold';
+    font-family: 'DanaMedium';
 }
 
 .main-p {
@@ -345,7 +344,7 @@ body {
 
 .skill-title {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .skill-carts {
@@ -414,7 +413,8 @@ body {
     text-decoration: none;
     display: block;
     text-align: center;
-    font-family: 'DanaBold';
+    font-family: 'DanaMedium';
+    font-weight: bold;
     margin: 15px auto;
     padding: 10px;
     border-radius: 5px;
@@ -432,7 +432,9 @@ body {
     padding-top: 50px;
 }
 
-.contact-title {}
+.contact-title {
+    margin-top: 100px;
+}
 
 .contact-text-header {}
 
@@ -512,7 +514,7 @@ body {
 
 .about-img {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .about-myimg {
