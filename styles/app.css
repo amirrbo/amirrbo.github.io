@@ -439,7 +439,7 @@ body {
     text-align: start;
 }
 
-.conract-link {
+.contact-link {
     text-decoration: none;
     display: block;
     margin-bottom: 20px;
@@ -453,6 +453,61 @@ body {
     align-items: center;
     margin-top: 40px;
     margin-right: 130px;
+}
+
+/* Start About Me */
+
+.about {
+    
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about-h2 {
+    /* padding-top: 100px; */
+}
+
+.about-h3 {
+    
+}
+
+.about-me {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+.about-img {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-myimg {
+    max-width: 350px;
+}
+
+.about-text {
+    flex-basis: 50%;
+}
+
+.about-text-p {
+    line-height: 30px;
+    max-width: 650px;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.about-link-to-contact {
+    text-decoration: none;
+    padding: 1px 10px;
+    background: #2f5bea;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 /* Project Responsive */
