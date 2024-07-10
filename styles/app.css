@@ -18,6 +18,50 @@
     src: url(../fonts/DanaFaNum-ExtraBold.ttf);
 }
 
+/* circle */
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.circle-blue1 {
+     background: #6199f9;
+     left: 50px;
+     top: 130px;
+    filter: blur(100px);
+}
+
+.circle-blue2 {
+    background: #6199f9;
+   filter: blur(100px);
+}
+
+.circle-blue3 {
+    background: #6199f9;
+   filter: blur(100px);
+   left: 40px;
+}
+
+.circle-blue4 {
+    background: #6199f9;
+   filter: blur(100px);
+}
+
+.circle-blue5 {
+    background: #6199f9;
+   filter: blur(100px);
+}
+
+.circle-blue6 {
+    background: #6199f9;
+   filter: blur(100px);
+}
+
 /* Start Project */
 
 html {
