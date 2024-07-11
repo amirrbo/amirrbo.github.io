@@ -20,6 +20,24 @@
 
 /*  */
 
+/* استایل دهی به نوار اسکرول */
+::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 10px;
+}
+
+/* نوار */
+::-webkit-scrollbar-track {
+  background: #dbe7fe;
+}
+
+/* دسته */
+::-webkit-scrollbar-thumb {
+  background: #2f5bea;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
 /* circle maim*/
 
 .circle {
@@ -27,7 +45,7 @@
     height: 200px;
     border-radius: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: -999;
     filter: blur(140px);
 }
 
@@ -267,7 +285,6 @@ body {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 3px 10px 0px #d9d9d9;
 }
 
 .main-card:hover {
@@ -298,7 +315,7 @@ body {
 }
 
 .main-span {
-    text-shadow: 0px 0px 20px #2f5bea;
+    text-shadow: 0px 0px 20px #2f5beabf;
 }
 
 .img-robot {
@@ -389,25 +406,26 @@ body {
     margin-bottom: 50px;
 }
 
-.card-holder {
+.skill-card-holder {
     text-align: center;
     padding: 60px;
     background: #2f5bea;
     border-radius: 5px;
-}
-
-.card-holder {
-    text-align: center;
+    background: #ffffff80;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .skill-h4 {
-    color: #fff;
-    font-size: 19px;
+    color: #000;
+    font-size: 22px;
 }
 
 .skill-span {
-    color: #fff;
-    font-size: 20px;
+    color: #000;
+    font-size: 22px;
 }
 
 /* Start Sample */
@@ -591,11 +609,9 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    z-index: 999;
 }
 
 .footer-img {
-
 }
 
 .footer-h3 {
