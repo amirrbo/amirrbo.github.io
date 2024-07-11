@@ -22,20 +22,20 @@
 
 /* استایل دهی به نوار اسکرول */
 ::-webkit-scrollbar {
-  width: 15px;
-  border-radius: 10px;
+    width: 15px;
+    border-radius: 10px;
 }
 
 /* نوار */
 ::-webkit-scrollbar-track {
-  background: #dbe7fe;
+    background: #dbe7fe;
 }
 
 /* دسته */
 ::-webkit-scrollbar-thumb {
-  background: #2f5bea;
-  border: 3px solid #fff;
-  border-radius: 10px;
+    background: #2f5bea;
+    border: 3px solid #fff;
+    border-radius: 10px;
 }
 
 /* circle maim*/
@@ -198,6 +198,12 @@ body {
     padding: 8px 20px;
     border-radius: 5px;
     font-size: 15px;
+}
+
+.header-icon-bar {
+    width: 35px;
+    display: none;
+    cursor: pointer;
 }
 
 /*Start header bottom */
@@ -416,6 +422,11 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 110ms ease-in;
+}
+
+.skill-card-holder:hover {
+    box-shadow: 0 0 200px -70px #2f5bea;
 }
 
 .skill-h4 {
@@ -599,9 +610,6 @@ body {
 
 .footer {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     width: 100%;
     margin-top: 200px;
     background: #ffffff80;
@@ -611,13 +619,12 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.footer-img {
-}
+.footer-img {}
 
-.footer-h3 {
+.footer-copyright-text {
     font-size: 15px;
     font-weight: normal;
-    margin-top: -40px;
+    margin-top: -35px;
 }
 
 /* Project Responsive */
@@ -632,11 +639,48 @@ body {
     .container {
         max-width: 720px;
     }
+
+    .header-btn {
+        display: none;
+    }
+
+    .a-link {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
         max-width: 540px;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        bottom: 0;
+        width: 250px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 16px 0px 0px 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgb(0 0 0 / 30%);
+        flex-direction: column;
+        transition: 0.3s all;
+    }
+    .menu-items {
+        margin-top: 40px;
+        margin-right: -40px;
+    }
+    .header-icon-bar {
+        display: block;
+    }
+
+    .header {
+        justify-content: space-between;
+        padding: 0 16px;
+        backdrop-filter: none;
     }
 }
 
