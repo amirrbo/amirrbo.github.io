@@ -900,18 +900,13 @@ body {
     .header-bottom-holder {
         margin-top: 40px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
     }
 
     .header-bottom-btm {
         font-size: 14px;
     }
-
-    .h3 {
-        line-height: 25px;
-    }
-
     .main-img {
         max-width: 100%;
         padding: 0;
@@ -932,5 +927,18 @@ body {
     .about-myimg {
         width: 100%;
         padding: 0 16px;
+    }
+    .header-bottom-p {
+        font-size: 18px;
+    }
+    .header-bottom-h2 {
+        font-size: 28px;
+    }
+    .h2 {
+        font-size: 26px;
+    }
+    .h3 {
+        font-size: 16px;
+        line-height: 28px;
     }
 }
