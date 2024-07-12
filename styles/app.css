@@ -410,7 +410,7 @@ body {
 
 .skill-title {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .skill-carts {
@@ -863,11 +863,11 @@ body {
     }
 
     .contact-text-top {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     .contact-link {
-        font-size: 15px;
+        font-size: 16px;
     }
     .bottom-img {
         max-width: 380px;
