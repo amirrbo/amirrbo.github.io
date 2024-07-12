@@ -255,6 +255,7 @@ body {
     background-color: #2f5bea;
     margin-left: 10px;
     border: 2px solid #2f5bea;
+    display: inline-block;
 }
 
 .header-bottom-btm:nth-child(2) {
@@ -571,15 +572,12 @@ body {
 }
 
 .about-h2 {
-    /* padding-top: 100px; */
+
 }
 
 .about-h3 {}
 
 .about-me {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
 }
 
@@ -602,15 +600,19 @@ body {
     text-align: justify;
     margin: 10px auto;
     font-size: 17px;
+    padding: 0 10px;
 }
 
 .about-link-to-contact {
     text-decoration: none;
-    padding: 1px 10px;
+    padding: 0px 10px;
     background: #2f5bea;
     color: #fff;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
 }
 
 /* Start footer */
@@ -646,22 +648,28 @@ body {
     .container {
         max-width: 960px;
     }
+
     .header-bottom-left-holder {
         max-width: 410px;
     }
+
     .bottom-img {
         max-width: 430px;
         margin-top: 60px;
     }
+
     .sample-top {
         justify-content: space-between;
     }
+
     .sample-bottom {
         justify-content: space-between;
     }
+
     .sample-img {
         max-width: 450px;
     }
+
     .persons-card-holder {
         flex-wrap: wrap;
     }
@@ -679,51 +687,66 @@ body {
     .a-link {
         font-size: 16px;
     }
+
     .header-bottom-left-holder {
         max-width: 350px;
     }
+
     .bottom-img {
         max-width: 380px;
         margin-top: 100px;
         margin-right: -60px;
     }
+
     .main-card {
         margin: 20px 0px;
     }
+
     .img-robot {
         right: 95px;
         bottom: -45px;
     }
+
     .main-img {
         max-width: 100%;
     }
+
     .persons-card {
         margin: 15px;
-        max-width: 320px;
+        max-width: 300px;
+        flex-wrap: wrap;
     }
+
     .skill-carts {
         justify-content: space-between;
     }
+
     .skill-card-holder {
         padding: 50px;
     }
+
     .skill-h4 {
         font-size: 20px;
     }
+
     .skill-span {
         font-size: 18px;
     }
+
     .sample-img {
         max-width: 340px;
     }
+
     .sample-link {
         padding: 6px;
         max-width: 150px;
         font-size: 14px;
     }
+
     .contact-bottom {
         margin-right: -50px;
     }
+
     .main-services {
         flex-wrap: wrap;
     }
@@ -749,10 +772,12 @@ body {
         flex-direction: column;
         transition: 0.3s all;
     }
+
     .menu-items {
         margin-top: 40px;
         margin-right: -40px;
     }
+
     .header-icon-bar {
         display: block;
     }
@@ -762,6 +787,7 @@ body {
         padding: 0 16px;
         backdrop-filter: none;
     }
+
     .header-bottom {
         display: flex;
         justify-content: center;
@@ -769,62 +795,84 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
     .main-services {
         display: block;
     }
+
     .main-card {
         max-width: 70%;
         margin: 25px auto;
     }
+
     .main-img {
         max-width: 100%;
     }
+
     .persons-card-holder {
         display: block;
     }
+
     .persons-card {
         max-width: 100%;
         min-height: 100%;
         margin: 25px;
     }
+
     .skill-carts {
         display: block;
     }
+
     .skill-card-holder {
-        margin-bottom: 20px;   
+        margin-bottom: 20px;
     }
+
     .sample-top {
         display: block;
     }
+
     .sample-bottom {
         display: block;
     }
+
     .sample-img {
         max-width: 100%;
         max-height: 100%;
         margin-top: 15px;
     }
+
     .sample-link {
         padding: 10px;
     }
+
     .contact-top {
         justify-content: center;
     }
+
     .contact-svg {
         max-width: 60px;
     }
+
     .contact-svg-holder {
         width: 100px;
     }
+
     .contact-bottom {
         justify-content: center;
         margin-right: -70px;
     }
+
     .contact-text-top {
         font-size: 16px;
     }
+
     .contact-link {
         font-size: 15px;
+    }
+    .bottom-img {
+        max-width: 380px;
+        margin-top: 100px;
+        margin-right: 0px;
     }
 }
 
@@ -832,11 +880,13 @@ body {
     .container {
         max-width: 100%;
     }
+
     .bottom-img {
         width: 100%;
         margin-top: 50px;
         margin-right: 0px;
     }
+
     .header-bottom {
         display: flex;
         justify-content: center;
@@ -844,32 +894,39 @@ body {
         flex-direction: column;
         padding: 0px 10px;
     }
+
     .header-bottom-holder {
         margin-top: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .header-bottom-btm {
         font-size: 14px;
     }
+
     .h3 {
         line-height: 25px;
     }
+
     .main-img {
         max-width: 100%;
         padding: 0;
     }
+
     .contact-top {
         display: block;
         margin: 0;
         padding: 0;
     }
+
     .contact-bottom {
         display: block;
         margin: 0;
         padding: 0;
     }
+
     .about-myimg {
         width: 100%;
         padding: 0 16px;
