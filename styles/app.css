@@ -613,6 +613,7 @@ body {
     border: none;
     cursor: pointer;
     display: inline-block;
+    margin-top: 10px;
 }
 
 /* Start footer */
