@@ -1,6 +1,6 @@
-let menu = document.querySelector(".menu")
-let menuBtn = document.querySelector(".header-icon-bar")
+let menu = document.querySelector(".menu");
+let menuBtn = document.querySelector(".header-icon-bar");
 
-menuBtn.addEventListener("click",function (){
-    menu.classList.toggle('active');
-})
+menuBtn.addEventListener("click", function () {
+  menu.classList.toggle("active");
+});
