@@ -878,7 +878,10 @@ body {
   }
 
   .header-bottom-holder {
-
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .header-bottom-btm {
@@ -921,9 +924,7 @@ body {
   .menu.active {
     right: 0;
   }
-  .header-bottom-btm:nth-child(2) {
-    margin-top: 10px;
-    width: 159px;
-    text-align: center;
-}
+  .header-bottom-btm {
+    padding: 8px 15px;
+  }
 }
