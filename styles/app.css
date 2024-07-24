@@ -69,11 +69,6 @@
   background-color: #00e676;
 }
 
-.circle5 {
-  left: 0;
-  background-color: #ff5dcd;
-}
-
 .circle6 {
   right: 0;
   background-color: #f8b01e;
@@ -854,10 +849,6 @@ body {
     margin-top: 100px;
     margin-right: 0px;
   }
-
-  .menu.active {
-    right: 0;
-  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -927,10 +918,6 @@ body {
   .h3 {
     font-size: 16px;
     line-height: 28px;
-  }
-
-  .menu.active {
-    right: 0;
   }
 
   .header-bottom-btm {
