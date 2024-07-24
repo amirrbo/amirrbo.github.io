@@ -10,7 +10,13 @@
     <link rel="stylesheet" href="styles/normalize.css">
 </head>
 
-<body>
+<body onload="loader()">
+
+    <div class="spinner" id="spinner">
+        <div class="spinnerin"></div>
+    </div>
+
+
     <section class="container-header">
         <header class="header">
             <nav class="nav-menu">
@@ -75,6 +81,7 @@
         </section>
     </section>
 
+    <!--  -->
     <section class="container">
         <main class="main">
 
@@ -385,8 +392,9 @@
             </h3>
         </section>
     </footer>
-
+ 
     <script src="scripts/app.js"></script>
+
 </body>
 
 </html>
