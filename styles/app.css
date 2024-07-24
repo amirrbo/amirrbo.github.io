@@ -178,7 +178,7 @@ body {
   text-decoration: none;
   color: #000;
   font-size: 18px;
-  transition: 0.1s ease-in-out;
+  transition: 80ms ease-in-out;
 }
 
 .a-link:hover {
@@ -848,11 +848,13 @@ body {
   .contact-link {
     font-size: 16px;
   }
+
   .bottom-img {
     max-width: 380px;
     margin-top: 100px;
     margin-right: 0px;
   }
+
   .menu.active {
     right: 0;
   }
@@ -887,6 +889,7 @@ body {
   .header-bottom-btm {
     font-size: 14px;
   }
+
   .main-img {
     max-width: 100%;
     padding: 0;
@@ -908,22 +911,28 @@ body {
     width: 100%;
     padding: 0 16px;
   }
+
   .header-bottom-p {
     font-size: 18px;
   }
+
   .header-bottom-h2 {
     font-size: 28px;
   }
+
   .h2 {
     font-size: 26px;
   }
+
   .h3 {
     font-size: 16px;
     line-height: 28px;
   }
+
   .menu.active {
     right: 0;
   }
+
   .header-bottom-btm {
     padding: 8px 15px;
   }
