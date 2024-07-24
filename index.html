@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
 </head>
 
-<body>
+<body onload="loader()">
     <section class="container-header">
         <header class="header">
             <nav class="nav-menu">
@@ -50,10 +50,15 @@
     </section>
 
     <section class="container">
+        <!-- lodear -->
+        <div class="spinner" id="spinner">
+            <div class="spinnerin"></div>
+        </div>
+        <!-- end loader -->
         <section class="header-bottom" id="home">
             <div class="header-bottom-right">
 
-                <img class="bottom-img" src="imges/header-img.svg">
+                <img class="bottom-img" src="imges/header-img.svg" onload="loader()">
             </div>
             <div class="header-bottom-left-holder">
                 <div class="header-bottom-left">
@@ -75,6 +80,7 @@
         </section>
     </section>
 
+    <!--  -->
     <section class="container">
         <main class="main">
 
@@ -387,6 +393,7 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+
 </body>
 
 </html>
