@@ -212,7 +212,8 @@ body {
 }
 
 .bottom-img {
-  width: 540px;
+  width: 520px;
+  margin-top: 20px;
 }
 
 .header-bottom-h2 {
@@ -936,7 +937,7 @@ body {
   animation: rot55 0.7s linear infinite;
   position: relative;
   top: 230px;
-  right: 610px;
+  right: 595px;
 }
 
 .spinnerin {
