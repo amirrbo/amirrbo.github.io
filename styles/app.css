@@ -727,6 +727,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .menu.active {
+    right: 0;
+  }
   .container {
     max-width: 540px;
   }
@@ -852,6 +855,9 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  .menu.active {
+    right: 0;
+  }
   .container {
     max-width: 100%;
   }
